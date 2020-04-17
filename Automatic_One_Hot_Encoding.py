@@ -14,9 +14,9 @@ def One_Hot_Significative(df, column, alpha=0.05):
         >>> df = pd.DataFrame({"variable": variable})
         >>> df = One_Hot_Significative(df, "variable")
     
-    :param df: A pandas DataFrame
-           column: A string
-           alpha: A float
+    :param: df: A pandas DataFrame
+            column: A string
+            alpha: A float
     :rtype: A pandas DataFrame
     """
     
