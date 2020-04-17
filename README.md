@@ -1,4 +1,4 @@
 # Python
 Set of python's module.
 
-In this repository I store all the (at least one time) useful module I wrote in Python so that I can used them in upcoming projects.
+This repo is a collection of python modules that I have used at least more than once that I want to save and share as many times as possible. And of course use for upcoming projects.
