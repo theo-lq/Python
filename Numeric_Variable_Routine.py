@@ -63,7 +63,7 @@ def check_numeric_variable(df, outliers=True, outliers_alpha=0.05, fill_na=True)
     columns = new_df.columns
 
     for column in columns:
-        if new_df.dtypes[column] == float64:
+        if new_df.dtypes[column] == np.float64:
             new_df = replace_outliers_fill_na(new_df, column, outliers, outliers_alpha, fill_na)
 
     return new_df
